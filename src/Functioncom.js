@@ -1,5 +1,5 @@
 import React from "react";
-const Header=()=>{
+const Functioncom=()=>{
     return (
         <div className="container1">
             <center>
@@ -11,4 +11,4 @@ const Header=()=>{
         </div>
     )
 }
-export default Header;
+export default Functioncom;

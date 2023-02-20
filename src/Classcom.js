@@ -1,6 +1,6 @@
 import React from "react";
 import {Component} from 'react';
-export class Header1 extends Component{
+export class Classcom extends Component{
     render(){
         return (
             <div className="container2">
@@ -15,4 +15,4 @@ export class Header1 extends Component{
     }
     
 }
-export default Header1;
+export default Classcom;

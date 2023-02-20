@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 // import User from "./User";
 import {useState} from 'react';
-import Header from "./Header";
-import Header1 from './Header1';
+import Functioncom from "./Functioncom";
+import Classcom from './Classcom';
 import "./App.css";
 
 function App() {
@@ -24,8 +24,8 @@ function App() {
       <button onClick={()=>setClass(!showclass)}>To see styling in functional component</button>
       <button onClick={()=>setShow(!showdiv)}>To see styling in class component</button>
       </div>
-      <span>{showclass?<Header/>:" "}</span>
-        <span>{showdiv?<Header1/>:" "}</span>
+      <span>{showclass?<Functioncom/>:" "}</span>
+        <span>{showdiv?<Classcom/>:" "}</span>
       </div>               
   );
 }
